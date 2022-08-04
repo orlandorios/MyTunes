@@ -115,8 +115,47 @@ button{
     border: 2px solid white;
 }
 
-#results{
 
+audio::-webkit-media-controls-panel {
+    background-color: black;
+  }
 
+audio::-webkit-media-controls-mute-button {
+    background-color: white;
+    border-radius: 50%;
+  }
+  audio::-webkit-media-controls-mute-button:hover {
+    background-color: silver;
+    border-radius: 50%;
+  }
 
+audio::-webkit-media-controls-play-button {
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+audio::-webkit-media-controls-play-button:hover {
+    background-color: silver;
+  }
+
+audio::-webkit-media-controls-current-time-display {
+    color: #fff;
+  }
+
+audio::-webkit-media-controls-time-remaining-display {
+    color: #fff;
+  }
+audio::-webkit-media-controls-timeline {
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+audio::-webkit-media-controls-volume-slider {
+    background-color: white;
+    border-radius: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
 
