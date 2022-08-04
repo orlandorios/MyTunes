@@ -73,6 +73,11 @@ button{
     text-align: left;
 }
 
+.informationDiv:hover{
+    opacity: 50%;
+    background-size: cover;
+}
+
 .container{
     margin-left: auto;
     margin-right: auto;
@@ -102,9 +107,6 @@ button{
     background-color: black; 
 }
 
-.audioPreview{
-    
-}
 
 .albumCover{
     align-content: center;
