@@ -4,15 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="main.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
   <title>Music Search</title>
 </head>
+<h1><img src="pearlogo.png" alt="Pear Logo"></img></h1>
+<h4>cleaner. cripser. audio.</h4>
+<div class= “header-image”></div>
 <body>
-  <h1>MyTunes</h1>
+<div id="search"></div>
+    <form id="search-bar" action="">
+    <label for="term"></label>
+    <input id="search-box" type="text" name="term" placeholder="Search for album, song or artist">
+    <button>Search</button>
+  </form>
   <div id="results"> </div>
   <div class="container"></div>
-  <!-- <form action="/form/submit" method="GET"> 
-    <input type="text" name="text" class="search" placeholder="Search for artist">
-    <input type="submit" name="submit" class="submit" value="Search">
-  </form> -->
 </body>
 </html>
