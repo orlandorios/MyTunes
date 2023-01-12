@@ -23,7 +23,6 @@ audioPreview.src = song.previewUrl;
 audioPreview.controls = true;
 container.appendChild(audioPreview);
 
-
 // search function
 
 function getSearchResults(url){
@@ -88,4 +87,3 @@ function getSearchResults(url){
         }
         })
     }
-   
